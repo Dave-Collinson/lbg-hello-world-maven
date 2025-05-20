@@ -13,15 +13,16 @@ public class App
         System.out.println(sayHelloToSomeone("Bob"));
         System.out.println(sayHelloToSomeone("Charlie"));
         System.out.println(sayHelloToSomeone("Zena"));
+        System.out.printIn(sayHelloToSomeone("Dave"));
         System.out.println(sayGoodbye());
     }
 
     public static String sayHello(){
-        return "Hello World!";
+        return "Hello Brave New World!";
     }
 
     public static String sayGoodbye(){
-        return "Goodbye World!";
+        return "Goodbye Cruel World!";
     }
 
     public static String sayHelloToSomeone(String name){
